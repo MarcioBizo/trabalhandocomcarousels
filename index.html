@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <!--Google Fonts-->
+
+
+    <!--Referencia a Fonte dos Icones , site onde esta puxando os icones dos botoes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!--FOnte Icones-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <title>App Cars</title>
+</head>
+
+<body>
+    <header class="colored-section" id="title">
+        <!--navbar-->
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">Bz Engineer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse  navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">
+                                Contato
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">
+                                Plano
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">
+                                Download
+                            </a>
+                        </li>
+                      
+                    </ul>
+                </div>
+
+            </nav>
+            <!--fim navbar-->
+
+            <div class="row">
+                <!--diz e insere 6 colunas no elemento-->
+                <div class="col-lg-6">
+                    <!--diz e insere 6 colunas no elemento-->
+
+                    <h1 class="titulo">Molde seu carro como quiser!</h1>
+                    <button type="button" class="download-button btn btn-dark btn-lg"><i
+                            class="fa-sharp fa-solid fa-apple-whole"></i>Download</button>
+                    <button type="button" class="download-button btn btn-outline-light btn-lg"><i
+                            class="fa-brands fa-google-play"></i>Download</button>
+                </div>
+
+                <!--diz e insere 6 colunas no elemento-->
+                <figure class="col-lg-6">
+                    <!--diz e insere 6 colunas no elemento-->
+
+                    <img class="carro1" src="../AppCars/img/car1.jpg " />
+                </figure>
+            </div>
+
+    </header>
+
+    <section class="white-section" id="features">
+        <div class="row">
+
+            <!--codigo do icone do site.   (fa-4x serve para aumentar o tamanho)-->
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-mobile-screen-button fa-4x"></i>
+                <h3>Entre em contato quando quiser!</h3>
+                <p>Acesso rápido e fácil com suporte 24h totalmente a disposição!.</p>
+            </div>
+
+
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-circle-check fa-4x"></i>
+                <h3>Produto com Qualidade! </h3>
+                <p>Produzido e testados com toda a rigorosa avaliação e tecnologia do mercado atualmente até o público
+                    final.</p>
+            </div>
+
+
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-landmark fa-4x"></i>
+                <h3>Conheça nossa História!</h3>
+                <p>Com mais de 30 anos no mercado colecionando títulos e parceiros incríveis.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="colored-section" id="testimonials">
+
+        <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+
+                    <h2 class="testimonial-text">Nossa paixão é moldar seu sonho!</h2>
+                    <img class="testimonial-image" src="../AppCars/img/logotipo.png" alt="Marcio" />
+                    <em>Dourados, MS</em>
+
+                </div>
+                <div class="carousel-item">
+                    <h2 class="estimonial-text">Conheça nossos projetos...</h2>
+                    <img class="testimonial-carrosel" src="../AppCars/img/car4.jpg" alt="Marcio" />
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Fim Carousel-->
+
+
+
+    </section>
+
+    <section  class="colored-section" id="press">
+        <img class="press-logo" src="../AppCars/img/Conheca.png" alt="logo1" width="300px" />
+        <img class="press-logo" src="../AppCars/img/Personalize.png" alt="logo2" width="300px" />
+        <img class="press-logo" src="../AppCars/img/Tenha.png" alt="logo3" width="300px" />
+        <img class="press-logo" src="../AppCars/img/Formas.png" alt="logo4" width="300px" />
+
+    </section>
+
+    <section class="white-section" id="pricing">
+
+        <h2 class="section-heading">Planos que lhe possibita conhecer um novo amanhã</h2>
+        <p>Planos com preços acessiveis</p>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card-header">
+                    <h3 class="features-title">Free</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">Grátis</h2>
+                    <p>5 curtidas por dia</p>
+                    <p>10 mensagens por dia</p>
+                    <p>40 curtidas por mes</p>
+
+                    <div class="d-grid gap-2">
+
+                        <button class="btn btn-outline-dark" type="button">Inscreva-se</button>
+
+                    </div>
+                    <!--------------------------------------------------------------------------------------------->
+                </div>
+
+            </div>
+
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card-header">
+                    <h3 class="features-title">Texto 2</h3>
+                </div>
+
+                <div class="card-body">
+                    <h2 class="price-text">R$50,00 / mês</h2>
+                    <p>Lista de Prioridades</p>
+                    <p>Curtidas ilimitadas</p>
+                    <p>Acesso Completo ao APP</p>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-secondary" type="button">Inscreva-se botao 2</button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="pricing-column col-lg-4 col-md-12">
+                <div class="card-header">
+                    <h3 class="features-title">Texto 2</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">R$50,00 / mês</h2>
+                    <p>Lista de Prioridades</p>
+                    <p>Curtidas ilimitadas</p>
+                    <p>Acesso Completo ao APP</p>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-secondary" type="button">Inscreva-se botao 3</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="colored-section" id="cta">
+
+        <h3 class="cta-heading">Faça agora mesmo o download.</h3>
+
+        <button type="button" class="download-button btn btn-dark btn-lg"><i
+                class="fa-sharp fa-solid fa-apple-whole"></i>Download</button>
+
+        <button type="button" class="download-button btn btn-outline-light btn-lg"><i
+                class="fa-brands fa-google-play"></i>Download</button>
+
+    </section>
+
+
+
+    <footer class="white-section" id="footer">
+        <i class="social-icon fa-brands fa-instagram"></i>
+        <i class="social-icon fa-brands fa-twitter"></i>
+        <i class="social-icon fa-brands fa-facebook"></i>
+
+        <p>© Copyright 2022 AppCars</p>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

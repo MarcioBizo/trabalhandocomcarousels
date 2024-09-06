@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-bold';
+}
+
+
+
+
+p {
+    color: #8f8f8f;
+}
+
+
+/*Heading-----------------------------------------*/
+.titulo {
+    font-family: 'Montserrat-black', sans-serif;
+    size: 3.5rem;
+    line-height: 1, 5;
+    font-weight: 700;
+}
+
+/*heading------------------------------------------*/
+
+
+#title {
+    
+    color: azure;
+    text-align: left;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/*Section---------------------------------------------------*/
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+background-color: #fff;
+}
+/*Section---------------------------------------------------*/
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+    /*Vai da um espaço entre o logo e o texto da pagina inicial somente na direita"Encontre Agora mesmo seu carro."*/
+}
+
+/*Na esquerda vai tirar o paddindo para o logo poder ficar centralizado com o texto a abaixo*/
+
+.nav-item {
+    padding: 18px;
+
+    /*Vai dar espaço  entre as opções do menu*/
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+
+/*Buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+
+}
+
+/*Title image*/
+.carro1 {
+    border-radius: 50%;
+    width: 400px;
+    height: 350px;
+
+    /*title iimage*/
+}
+
+/*Features Session*/
+#features {
+    padding: 7% 15%;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+/*Features Session*/
+
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/*testimonials section*/
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/*testimonials section*/
+
+
+.testimonial-image {
+    width: 23%;
+    border-radius: 100%;
+    margin: 0px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-carrosel {
+    width: 23%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#press {
+    padding-bottom: 2%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    border: 1px solid #ef8172;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*CTA Section*/
+#cta {
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*Footer section*/
+
+#footer {
+    padding: 7% 15%;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
